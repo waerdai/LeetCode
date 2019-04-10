@@ -7,15 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		393FC618225DAF51004E0F6C /* ValidParentheses.m in Sources */ = {isa = PBXBuildFile; fileRef = 393FC617225DAF51004E0F6C /* ValidParentheses.m */; };
 		39EA98F3225C42F300708E51 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 39EA98F2225C42F300708E51 /* AppDelegate.m */; };
 		39EA98F6225C42F300708E51 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39EA98F5225C42F300708E51 /* ViewController.m */; };
 		39EA98F9225C42F300708E51 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39EA98F7225C42F300708E51 /* Main.storyboard */; };
 		39EA98FB225C42F400708E51 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39EA98FA225C42F400708E51 /* Assets.xcassets */; };
 		39EA98FE225C42F400708E51 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39EA98FC225C42F400708E51 /* LaunchScreen.storyboard */; };
 		39EA9901225C42F400708E51 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 39EA9900225C42F400708E51 /* main.m */; };
+		39EA990B225C4A6300708E51 /* LinearStruct.mm in Sources */ = {isa = PBXBuildFile; fileRef = 39EA990A225C4A6300708E51 /* LinearStruct.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		393FC616225DAF51004E0F6C /* ValidParentheses.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ValidParentheses.h; sourceTree = "<group>"; };
+		393FC617225DAF51004E0F6C /* ValidParentheses.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ValidParentheses.m; sourceTree = "<group>"; };
 		39EA98EE225C42F300708E51 /* LeetCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeetCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		39EA98F1225C42F300708E51 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		39EA98F2225C42F300708E51 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -26,6 +30,8 @@
 		39EA98FD225C42F400708E51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		39EA98FF225C42F400708E51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		39EA9900225C42F400708E51 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		39EA9909225C4A6300708E51 /* LinearStruct.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LinearStruct.h; sourceTree = "<group>"; };
+		39EA990A225C4A6300708E51 /* LinearStruct.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = LinearStruct.mm; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +45,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		393FC615225DAF36004E0F6C /* ValidParentheses */ = {
+			isa = PBXGroup;
+			children = (
+				393FC616225DAF51004E0F6C /* ValidParentheses.h */,
+				393FC617225DAF51004E0F6C /* ValidParentheses.m */,
+			);
+			path = ValidParentheses;
+			sourceTree = "<group>";
+		};
 		39EA98E5225C42F300708E51 = {
 			isa = PBXGroup;
 			children = (
@@ -58,6 +73,8 @@
 		39EA98F0225C42F300708E51 /* LeetCode */ = {
 			isa = PBXGroup;
 			children = (
+				393FC615225DAF36004E0F6C /* ValidParentheses */,
+				39EA9908225C4A0100708E51 /* LinearStruct */,
 				39EA98F1225C42F300708E51 /* AppDelegate.h */,
 				39EA98F2225C42F300708E51 /* AppDelegate.m */,
 				39EA98F4225C42F300708E51 /* ViewController.h */,
@@ -69,6 +86,15 @@
 				39EA9900225C42F400708E51 /* main.m */,
 			);
 			path = LeetCode;
+			sourceTree = "<group>";
+		};
+		39EA9908225C4A0100708E51 /* LinearStruct */ = {
+			isa = PBXGroup;
+			children = (
+				39EA9909225C4A6300708E51 /* LinearStruct.h */,
+				39EA990A225C4A6300708E51 /* LinearStruct.mm */,
+			);
+			path = LinearStruct;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,7 +168,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				39EA98F6225C42F300708E51 /* ViewController.m in Sources */,
+				39EA990B225C4A6300708E51 /* LinearStruct.mm in Sources */,
 				39EA9901225C42F400708E51 /* main.m in Sources */,
+				393FC618225DAF51004E0F6C /* ValidParentheses.m in Sources */,
 				39EA98F3225C42F300708E51 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

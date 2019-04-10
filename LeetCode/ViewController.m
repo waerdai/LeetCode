@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "ValidParentheses/ValidParentheses.h"
 
 @interface ViewController ()
 
@@ -16,8 +17,17 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+
 }
 
+- (void)testValidParentheses {
+    NSString *ss = @"[({})]";
+    if ([ValidParentheses isValidParentheses:ss]) {
+        NSLog(@"合法");
+    }
+    else {
+        NSLog(@"不合法");
+    }
+}
 
 @end
