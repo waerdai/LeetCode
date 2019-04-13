@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		393FC618225DAF51004E0F6C /* ValidParentheses.m in Sources */ = {isa = PBXBuildFile; fileRef = 393FC617225DAF51004E0F6C /* ValidParentheses.m */; };
+		395F6A8F2261ABF600DF78E1 /* SlipWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 395F6A8E2261ABF600DF78E1 /* SlipWindow.m */; };
 		39EA98F3225C42F300708E51 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 39EA98F2225C42F300708E51 /* AppDelegate.m */; };
 		39EA98F6225C42F300708E51 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39EA98F5225C42F300708E51 /* ViewController.m */; };
 		39EA98F9225C42F300708E51 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39EA98F7225C42F300708E51 /* Main.storyboard */; };
@@ -20,6 +21,8 @@
 /* Begin PBXFileReference section */
 		393FC616225DAF51004E0F6C /* ValidParentheses.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ValidParentheses.h; sourceTree = "<group>"; };
 		393FC617225DAF51004E0F6C /* ValidParentheses.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ValidParentheses.m; sourceTree = "<group>"; };
+		395F6A8D2261ABF600DF78E1 /* SlipWindow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SlipWindow.h; sourceTree = "<group>"; };
+		395F6A8E2261ABF600DF78E1 /* SlipWindow.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SlipWindow.m; sourceTree = "<group>"; };
 		39EA98EE225C42F300708E51 /* LeetCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeetCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		39EA98F1225C42F300708E51 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		39EA98F2225C42F300708E51 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -54,6 +57,15 @@
 			path = ValidParentheses;
 			sourceTree = "<group>";
 		};
+		395F6A8C2261ABD500DF78E1 /* SlipWindow */ = {
+			isa = PBXGroup;
+			children = (
+				395F6A8D2261ABF600DF78E1 /* SlipWindow.h */,
+				395F6A8E2261ABF600DF78E1 /* SlipWindow.m */,
+			);
+			path = SlipWindow;
+			sourceTree = "<group>";
+		};
 		39EA98E5225C42F300708E51 = {
 			isa = PBXGroup;
 			children = (
@@ -73,6 +85,7 @@
 		39EA98F0225C42F300708E51 /* LeetCode */ = {
 			isa = PBXGroup;
 			children = (
+				395F6A8C2261ABD500DF78E1 /* SlipWindow */,
 				393FC615225DAF36004E0F6C /* ValidParentheses */,
 				39EA9908225C4A0100708E51 /* LinearStruct */,
 				39EA98F1225C42F300708E51 /* AppDelegate.h */,
@@ -170,6 +183,7 @@
 				39EA98F6225C42F300708E51 /* ViewController.m in Sources */,
 				39EA990B225C4A6300708E51 /* LinearStruct.mm in Sources */,
 				39EA9901225C42F400708E51 /* main.m in Sources */,
+				395F6A8F2261ABF600DF78E1 /* SlipWindow.m in Sources */,
 				393FC618225DAF51004E0F6C /* ValidParentheses.m in Sources */,
 				39EA98F3225C42F300708E51 /* AppDelegate.m in Sources */,
 			);
