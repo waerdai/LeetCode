@@ -8,10 +8,15 @@
 
 #import "SlipWindow.h"
 
+
 @implementation SlipWindow
 
 /// 用双端队列 时间复杂度n
 + (NSArray *)slidingWindow2:(NSArray *)source k:(NSInteger)k {
+    if ([source count] == 0) {
+        return source;
+    }
+    
     NSMutableArray *array_m = [NSMutableArray arrayWithCapacity:0];//装k个元素
     NSMutableArray *result_m = [NSMutableArray arrayWithCapacity:0];//装结果集
     
@@ -36,6 +41,10 @@
 
 /// 时间复杂度 n*logk
 + (NSArray *)slidingWindow:(NSArray *)source k:(NSInteger)k {
+    if ([source count] == 0) {
+        return source;
+    }
+    
     NSMutableArray *array_m = [NSMutableArray arrayWithCapacity:0];//装k个元素
     NSMutableArray *result_m = [NSMutableArray arrayWithCapacity:0];//装结果集
     [source enumerateObjectsUsingBlock:^(NSNumber *obj, NSUInteger idx, BOOL * _Nonnull stop) {
